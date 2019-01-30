@@ -1,0 +1,7 @@
+{
+  "pathPrefix": "/",
+  "siteTitle": "Minimal Blog",
+  "siteTitleAlt": "Minimal Blog - Gatsby Starter",
+  "siteTitleManifest": "MinimalBlog",
+  "siteUrl": "https://minimal-blog.lekoarts.de"
+}
