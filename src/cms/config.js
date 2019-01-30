@@ -1,10 +1,11 @@
 module.exports = {
-    backend: {
-        name: "test-repo"
+    "backend": {
+        "name": "github",
+        "repo": "rogermparent/gatsby-starter-minimal-blog"
     },
     "publish_mode": 'editorial_workflow',
     "media_folder": './assets',
-    collections: [
+    "collections": [
         {
             "name": "blog",
             "label": "Blog",
