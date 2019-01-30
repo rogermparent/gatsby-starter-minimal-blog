@@ -2,7 +2,6 @@
     "siteLanguage": "en",
     "siteHeadline": "Writing and publishing content",
     "siteBanner": "/social/banner.jpg",
-    "favicon": "src/favicon.png",
     "siteDescription": "Minimal Blog with a focus on typography. Gatsby Starter powered by MDX.",
     "author": "LekoArts",
     "siteLogo": "/social/logo.png"

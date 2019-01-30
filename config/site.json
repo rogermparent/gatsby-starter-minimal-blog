@@ -3,5 +3,6 @@
   "siteTitle": "Minimal Blog",
   "siteTitleAlt": "Minimal Blog - Gatsby Starter",
   "siteTitleManifest": "MinimalBlog",
+  "favicon": "assets/favicon.png",
   "siteUrl": "https://minimal-blog.lekoarts.de"
 }
