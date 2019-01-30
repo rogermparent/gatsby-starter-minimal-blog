@@ -4,7 +4,8 @@ module.exports = {
         "repo": "rogermparent/gatsby-starter-minimal-blog"
     },
     "publish_mode": 'editorial_workflow',
-    "media_folder": './assets',
+    "media_folder": './static/assets',
+    "public_folder": './assets',
     "collections": [
         {
             "name": "blog",

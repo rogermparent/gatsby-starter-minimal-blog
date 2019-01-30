@@ -13,7 +13,8 @@ module.exports = {
       options: {
         root: './',
         aliases: {
-          "components": "./src/components"
+          "components": "./src/components",
+          "assets": "./static/assets"
         }
       }
     },
@@ -24,7 +25,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'assets',
-        path: `${__dirname}/assets`,
+        path: `${__dirname}/static/assets`,
       },
     },
     {

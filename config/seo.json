@@ -4,5 +4,5 @@
     "siteBanner": "/social/banner.jpg",
     "siteDescription": "Minimal Blog with a focus on typography. Gatsby Starter powered by MDX.",
     "author": "LekoArts",
-    "siteLogo": "/social/logo.png"
+    "siteLogo": "assets/social.png"
 }
