@@ -10,8 +10,11 @@ module.exports = {
             "name": "blog",
             "label": "Blog",
             "label_singular": "Post",
-            "folder": "./content/blog",
+            "folder": "content/blog",
             "create": true,
+            "identifier_field": "title",
+            "format": "frontmatter",
+            "extension": "mdx",
             "fields": [
                 {
                     "name": "title",
@@ -27,6 +30,11 @@ module.exports = {
                     "label": "Categories",
                     "widget": "list"
                 },
+                {
+                    "name": "body",
+                    "label": "Body",
+                    "widget": "markdown"
+                }
             ]
         },
         {
