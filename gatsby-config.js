@@ -8,14 +8,30 @@ module.exports = {
     siteUrl: config.siteUrl + pathPrefix,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-module-resolver',
+      options: {
+        root: './',
+        aliases: {
+          "components": "./src/components"
+        }
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'post',
-        path: `${__dirname}/blog`,
+        name: 'assets',
+        path: `${__dirname}/assets`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content`,
       },
     },
     {
@@ -28,6 +44,9 @@ module.exports = {
               target: '_blank',
               rel: 'nofollow noopener noreferrer',
             },
+          },
+          {
+            resolve: 'gatsby-remark-relative-images'
           },
           {
             resolve: 'gatsby-remark-images',
