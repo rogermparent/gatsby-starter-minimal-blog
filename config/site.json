@@ -1,8 +1,8 @@
 {
-  "pathPrefix": "/",
+  "siteUrl": "https://minimal-blog.lekoarts.de",
   "siteTitle": "Minimal Blog",
+  "favicon": "/assets/favicon.png",
   "siteTitleAlt": "Minimal Blog - Gatsby Starter",
   "siteTitleManifest": "MinimalBlog",
-  "favicon": "static/assets/favicon.png",
-  "siteUrl": "https://minimal-blog.lekoarts.de"
+  "pathPrefix": "/"
 }
